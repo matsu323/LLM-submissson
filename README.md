@@ -10,4 +10,6 @@ PubChemのデータベースにないものを省き、PubChemのcanonical-smile
 30個のうち提案化合物10個の選び方:<br>
 validである。提案化合物に被りがない。900個の化合物とのtanimoto係数のうちもっとも高い値を考える。その値が低いものから10個化合物を選び、提案化合物とした。<br>
 <br>
-コードと出力:LLMcharenge.ipynb
+コードと出力:LLMcharenge.ipynb<br>
+<br>
+選んだ化合物:result.txt
